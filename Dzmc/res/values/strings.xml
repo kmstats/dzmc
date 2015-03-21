@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">电子名册</string>
+    <string name="navigation_drawer_open">打开单位树</string>
+    <string name="navigation_drawer_close">关闭单位树</string>
+    <string name="action_example">查询</string>
+    <string name="action_settings">设置</string>
+    <string name="DB_PATH">/Android/data/com.echo.dzmc/databases/</string>
+    <string name="DB_NAME">GbmcDB.DB</string>
+    <string name="MSG_ERROR">错误</string>
+    <string name="MSG_NODATABASE">找不到数据库</string>
+    <string name="DB_DROPDB">DROP TABLE IF EXISTS tbl_UNITS;DROP TABLE IF EXISTS tbl_gbmc;DROP TABLE IF EXISTS tbl_relate;</string>
+    <string name="searchHint">输入姓名</string>
+    <string name="searchLabel">查询</string>
+
+</resources>

@@ -1,0 +1,139 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>领导干部信息</title>
+<style type="text/css">
+body {font: normal 100% Helvetica, Arial,sans-serif;}
+</style>
+</head>
+<body">
+
+<p align="center"><b><font face="黑体">干部信息表</font></b></p>
+<center>
+<table border="1" width="100%" id="table1" cellspacing="0" cellpadding="0">
+	<!-- MSTableType="nolayout" -->
+	<tr>
+		<td align="center" colspan="2"><b>姓名</b></td>
+		<td align="center">@name</td>
+		<td align="center"><b>性别</b></td>
+		<td align="center" colspan="2">@sex</td>
+		<td height="49" align="center"><div class="content"><img class="img zp" src="data:image/png;base64,@zp" width="48px" height="60px"></div></td>
+	</tr>
+	<tr>
+		<td align="center" colspan="2"><b>民族</b></td>
+		<td align="center">@mz</td>
+		<td align="center"><b>籍贯</b></td>
+		<td align="center">@jg</td>
+		<td align="center"><b>出生地</b></td>
+		<td align="center">@csd</td>
+	</tr>
+	<tr>
+		<td align="center" colspan="2"><b>出生<br>
+		年月</b></td>
+		<td height="49" align="center">@birthday</td>
+		<td align="center" width="15%"><b>入党<br>
+		时间</b></td>
+		<td align="center">@rdsj</td>
+		<td align="center"><b>参加工<br>
+		作时间</b></td>
+		<td align="center">@cjgzsj</td>
+	</tr>
+	<tr>
+		<td align="center" rowspan="2" width="5%"><b>学历学位</b></td>
+		<td align="center" width="58"><b>全日制教育</b></td>
+		<td align="center" colspan="2">@qrzjy</td>
+		<td align="center"><b>毕业院校系及专业</b></td>
+		<td align="center" colspan="2">@qrzbyyx</td>
+	</tr>
+	<tr>
+		<td align="center" height="49" width="58"><b>在职教育</b></td>
+		<td align="center" colspan="2">@zzjy</td>
+		<td align="center"><b>毕业院校系及专业</b></td>
+		<td align="center" colspan="2">@zzbyyx</td>
+	</tr>
+	<tr>
+		<td align="center" width="78" colspan="2"><b>现任职务</b></td>
+		<td align="center" colspan="5" height="49" width="67%">
+		<p align="left">@zw</td>
+		</tr>
+	<tr>
+		<td align="center" width="78" colspan="2"><b><br>
+		简</b><p>　</p>
+		<p>　</p>
+		<p><b>历<br>
+&nbsp;</b>&nbsp;</td>
+		<td colspan="5" height="153" width="67%">@jl</td>
+		</tr>
+	<tr>
+		<td align="center" width="78" colspan="2"><br>
+		<b>奖惩<br>
+		情况<br>
+&nbsp;</b></td>
+		<td colspan="5" height="64" width="67%">@jcqk</td>
+		</tr>
+	<tr>
+		<td align="center" width="78" colspan="2"><b><br>
+		年度<br>
+		考核<br>
+		结果<br>
+&nbsp;</b></td>
+		<td colspan="5" height="101" width="67%">@ndkh</td>
+		</tr>
+	<tr>
+		<td align="center" width="78" colspan="2"><b><br>
+		党校培<br>
+		训情况<br>
+&nbsp;</b></td>
+		<td colspan="5" height="81" width="67%">@dxpx<p>&nbsp;</td>
+		</tr>
+	<tr>
+		<td align="center" rowspan="6" width="5%"><b>家庭主要成员及<br>
+		重要社会关系</b></td>
+		<td align="center" height="49" width="58"><b>称谓</b></td>
+		<td align="center"><b>姓名</b></td>
+		<td align="center"><b>出生年月</b></td>
+		<td align="center"><b>政治<br>
+		面貌</b></td>
+		<td align="center" colspan="2"><b>工作单位及职务</b></td>
+	</tr>
+	<tr>
+		<td align="center" height="49" width="58">@cw1</td>
+		<td align="center">@xm1</td>
+		<td align="center">@csny1</td>
+		<td align="center">@zzmm1</td>
+		<td align="center" colspan="2">@gzdw1</td>
+	</tr>
+	<tr>
+		<td align="center" height="49" width="58">@cw2</td>
+		<td align="center">@xm2</td>
+		<td align="center">@csny2</td>
+		<td align="center">@zzmm2</td>
+		<td align="center" colspan="2">@gzdw2</td>
+	</tr>
+	<tr>
+		<td align="center" height="49" width="58">@cw3</td>
+		<td align="center">@xm3</td>
+		<td align="center">@csny3</td>
+		<td align="center">@zzmm3</td>
+		<td align="center" colspan="2">@gzdw3</td>
+	</tr>
+	<tr>
+		<td align="center" height="49" width="58">@cw4</td>
+		<td align="center">@xm4</td>
+		<td align="center">@csny4</td>
+		<td align="center">@zzmm4</td>
+		<td align="center" colspan="2">@gzdw4</td>
+	</tr>
+	<tr>
+		<td align="center" height="49" width="58">@cw5</td>
+		<td align="center">@xm5</td>
+		<td align="center">@csny5</td>
+		<td align="center">@zzmm5</td>
+		<td align="center" colspan="2">@gzdw5</td>
+	</tr>
+	</table>
+<div id="Over"></div>
+</body>
+
+</html>
