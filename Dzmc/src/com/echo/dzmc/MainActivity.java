@@ -85,7 +85,7 @@ public class MainActivity extends ActionBarActivity
                 getSupportFragmentManager().findFragmentById(R.id.navigation_drawer);
         mTitle = getTitle();
         
-        // Set up the drawer.fdskl fdsjalkfsa fsd;fds 
+        // Set up the drawer. 
         mNavigationDrawerFragment.setUp(
                 R.id.navigation_drawer,
                 (DrawerLayout) findViewById(R.id.drawer_layout));
@@ -105,7 +105,6 @@ public class MainActivity extends ActionBarActivity
           Log.e("fdsja",query);
           //doMySearch(query);  
         } 
-        
     }
     
     protected void OnDestory(){
